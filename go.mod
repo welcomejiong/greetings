@@ -1,3 +1,3 @@
-module github.com/welcomejiong/qd_greetings
+module github.com/welcomejiong/greetings
 
 go 1.16
