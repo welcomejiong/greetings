@@ -9,7 +9,7 @@ import (
 func Hello(name string) (string, error) {
 	// Return a greeting that embeds the name in a message.
 	if name == "" {
-		return "", errors.New("empty name")
+		return "", errors.New("empty name please enter your name")
 	}
 	message := fmt.Sprintf("Hi, %v. Welcome!", name)
 	return message, nil
